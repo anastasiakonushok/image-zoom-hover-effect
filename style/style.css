@@ -1,0 +1,27 @@
+body {
+    background:url(../img/image-space.jpg)
+}
+.box {
+    width: 1170px;
+    margin: 10% auto;
+    
+}
+figure{
+    overflow: hidden;
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin: 0 10px;
+    border: 7px solid black;
+}
+figure img {
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: 300px;
+    
+  }
+
+figure:hover img {
+    transform: scale(1.2) rotate(-5deg);
+    cursor: pointer;
+}
