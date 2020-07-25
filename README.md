@@ -1,1 +1,1 @@
-# image--zoom-hover--effect
+# image-zoom-hover-effect
